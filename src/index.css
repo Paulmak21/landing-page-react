@@ -3,10 +3,26 @@
 @tailwind utilities;
 
 body {
+    height: 100vh;
     background-image: url(../public/images/2020-BMW-M3-Interior-.jpg);
-    background-size: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
 }
 
 .img {
     image-rendering: auto;
+}
+
+.bg-custom-background {
+    background-image: url('./components/logoNav.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    aspect-ratio: 1;
+    width: 35px;
+    
 }
